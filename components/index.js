@@ -1,3 +1,4 @@
-import Navbar from './Navbar/Navbar';
+import TopNavbar from './TopNavbar/TopNavbar';
+import MainHero from './MainHero/MainHero';
 
-export { Navbar };
+export { TopNavbar, MainHero };
