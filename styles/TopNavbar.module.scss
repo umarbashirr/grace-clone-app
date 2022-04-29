@@ -17,6 +17,10 @@
 		.navbar_link {
 			color: #444;
 		}
+
+		.navbar_toggler {
+			color: #444;
+		}
 	}
 }
 
@@ -26,6 +30,10 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 50px;
+
+	@media screen and (max-width: 768px) {
+		padding: 0 20px;
+	}
 
 	&_logo {
 		display: flex;
@@ -37,10 +45,10 @@
 		border: none;
 		color: #fff;
 		display: none;
-		font-size: 1.5rem;
 
 		@media screen and (max-width: 768px) {
 			display: flex;
+			font-size: 1.4rem;
 		}
 	}
 
