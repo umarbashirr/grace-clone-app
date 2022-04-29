@@ -1,0 +1,8 @@
+.app {
+	display: flex;
+	flex-direction: column;
+
+	&_container {
+		flex-grow: 1;
+	}
+}

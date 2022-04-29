@@ -1,0 +1,60 @@
+.header {
+	background-color: green;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	transition: all 0.6s ease-in-out;
+
+	&.scrolled {
+		background-color: #fff;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		transition: all 0.6s ease-in-out;
+
+		.navbar_link {
+			color: #444;
+		}
+	}
+}
+
+.navbar {
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+
+	&_logo {
+		display: flex;
+	}
+
+	&_toggler {
+		background-color: transparent;
+		outline: none;
+		border: none;
+		color: #fff;
+		display: none;
+		font-size: 1.5rem;
+
+		@media screen and (max-width: 768px) {
+			display: flex;
+		}
+	}
+
+	&_menu {
+		display: flex;
+		gap: 1rem;
+
+		@media screen and (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	&_link {
+		color: #fff;
+		font-weight: 500;
+	}
+}

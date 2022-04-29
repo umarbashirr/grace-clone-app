@@ -1,12 +1,12 @@
 import '../styles/globals.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { TopNavbar } from '../components';
+import { Layout } from '../components';
 
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
-			<TopNavbar />
-			<Component {...pageProps} />
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
 		</>
 	);
 }

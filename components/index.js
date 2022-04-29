@@ -1,4 +1,5 @@
-import TopNavbar from './TopNavbar/TopNavbar';
-import MainHero from './MainHero/MainHero';
+import TopNavbar from './TopNavbar';
+import Footer from './Footer';
+import Layout from './Layout';
 
-export { TopNavbar, MainHero };
+export { TopNavbar, Footer, Layout };
