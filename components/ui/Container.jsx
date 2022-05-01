@@ -7,7 +7,7 @@ const Container = ({ children }) => {
 			<style jsx>{`
 				.container {
 					width: 100%;
-					maxwidth: 1140px;
+					max-width: 1140px;
 					margin: 0 auto;
 					padding: 0 30px;
 				}
