@@ -7,6 +7,7 @@ import Layout from "./Layout";
 import MainHero from "./MainHero";
 import HomeAbout from "./HomeAbout";
 import PromoBanner from "./PromoBanner";
+import Tabs from "./Tabs";
 
 export {
   TopNavbar,
@@ -16,4 +17,5 @@ export {
   MainHero,
   HomeAbout,
   PromoBanner,
+  Tabs,
 };

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { HomeAbout, MainHero, PromoBanner } from "../components";
+import { HomeAbout, MainHero, PromoBanner, Tabs } from "../components";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <MainHero />
       <HomeAbout />
       <PromoBanner />
+      <Tabs />
     </>
   );
 }

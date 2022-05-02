@@ -1,0 +1,43 @@
+.tab-wrapper {
+  padding: 100px 0;
+  background-color: #111;
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .col {
+    flex: 1;
+
+    &:not(:last-child) {
+      border-right: 2px solid #efefef;
+    }
+  }
+}
+
+.tab-btn {
+  text-align: center;
+  font-size: 1.9rem;
+  color: #efefef;
+  cursor: pointer;
+
+  .icon {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+}
+
+.tab-panel {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+
+  p {
+    font-size: 1.1rem;
+  }
+}
