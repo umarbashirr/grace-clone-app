@@ -1,0 +1,59 @@
+.testimonial {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../public/assets/images/heroimage.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 100px;
+	color: #fff;
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+		text-align: center;
+	}
+
+	.title {
+		font-size: 46px;
+	}
+
+	.subtitle {
+		font-size: 18px;
+	}
+}
+
+.testimonial-wrapper {
+	margin-top: 80px;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+
+.review {
+	width: 100%;
+	text-align: center;
+	// border: 1px solid #fff;
+	flex-grow: 1;
+	flex-shrink: 0;
+
+	&_img {
+		border-radius: 50%;
+		overflow: hidden;
+
+		img {
+			object-fit: cover;
+			border-radius: 50%;
+		}
+	}
+
+	&_desc {
+		width: 80%;
+		margin: 2rem auto;
+		font-size: 18px;
+	}
+
+	&_user {
+		font-weight: 800;
+		font-size: 30px;
+	}
+}
